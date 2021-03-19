@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/all.min.css">
+    <link rel="stylesheet" href="./style/bootstrap.min.css">
+    <link rel="stylesheet" href="./style/fontawesome.min.css">
+    <link rel="stylesheet" href="./style/style.css">
+
+</head>
+<body>
+    
+    <section class="sidebar d-flex position-fixed">
+
+    
+
+
+        <div class="two d-flex justify-content-between flex-column">
+          
+            <div>
+                <ul class="list-unstyled ps-4 py-4">
+                    <li><a id="movie/now_playing" class="link">Now Playing</a></li>
+                    <li><a id="movie/popular"  class="link">Popular</a></li>
+                    <li><a  id="movie/top_rated"  class="link">Top Rated</a></li>
+                    <li><a  id="trending/all/day"  class="link">Trending</a></li>
+                    <li><a  id="movie/upcoming"  class="link">Upcoming</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="footer  mx-3">
+                <div>
+                    <a>
+                        <i class="fas fa-globe me-3"></i>
+                    </a>
+
+                    <a>
+                    <i class="fab fa-facebook-f me-3"></i>
+                    </a>
+                    <a>
+                    <i class="fab fa-twitter me-3"></i>
+                    </a>
+                </div>
+
+                <div >
+                    <p>CopyRight &copy; 2019 All Right Reserved</p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="one d-flex flex-column justify-content-between ps-2 py-2">
+            <div>
+                <img class="w-75" src="./image/logo (1).png">
+            </div>
+
+            <div>
+                <i class="fa fa-align-justify fa-times fa-2x" style="display: none;"></i>
+                <i class="fa text-dark fa-align-justify times fa-2x" ></i>
+            </div>
+
+            <div>
+                <i class="fas fa-globe me-3 fa-2x my-2"></i>
+                <i class="fas fa-share-alt me-3 fa-2x"></i>
+            </div>
+        </div>
+      
+    </section>
+
+    <section class="search w-100">
+        <div class="container">
+            <div class="row">
+               <div class="col-md-6 mt-4">
+                   <div class="w-100 border-bottom">
+                       <input class="form-control bg-transparent border-0 text-center" placeholder="get movie by word">
+                   </div>
+               </div>
+
+               <div class="col-md-6">
+                    <div class="border-bottom mt-4">
+                        <input class="form-control bg-transparent border-0 text-center" placeholder="search">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    
+    <section class="w-100 my-5">
+       <div class="container">
+            <div class="row" id="moves">
+
+            </div>
+       </div>
+    </section>
+
+
+    <section>
+       <div class="container">
+           <h2 class="text-white"> Contact Us...</h2>
+           
+           <div class="row my-5">
+            <div class="col-md-6 mt-4">
+                <div class="w-100 border-bottom">
+                    <input id="name" class="form-control bg-transparent border-0 text-center" placeholder="Enter your Name">
+                </div>
+                <div class="validtion name">enter valid name</div>
+            </div>
+
+            <div class="col-md-6">
+                 <div class="border-bottom mt-4">
+                     <input id="email" class="form-control bg-transparent border-0 text-center" placeholder="Enter your Email">
+                 </div>
+                 <div class="validtion email">enter valid email</div>
+             </div>
+
+             <div class="col-md-6">
+                <div class="border-bottom mt-4">
+                    <input id="age" class="form-control bg-transparent border-0 text-center" placeholder="Enter Your Age">
+                </div>
+                <div class="validtion age">enter valid age</div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="border-bottom mt-4">
+                    <input id="phone" class="form-control bg-transparent border-0 text-center" placeholder="Enter Your Phone">
+                </div>
+                <div class="validtion phone">enter valid phone</div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="border-bottom mt-4">
+                    <input id="pass" class="form-control bg-transparent border-0 text-center" placeholder="Enter Your Password">
+                </div>
+                <div class="validtion password">enter valid password</div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="border-bottom mt-4">
+                    <input id="repass" class="form-control bg-transparent border-0 text-center" placeholder="Enter Your Re-Password">
+                </div>
+                <div class="validtion repassword">enter valid Repassword</div>
+            </div>
+
+
+    
+
+
+         </div>
+
+         <button  id="btns" class="btn btn-outline-danger mt-3 mb-5" disabled>
+            Submit
+        </button>
+
+       </div>
+    </section>
+
+
+    <script src="./js/jquery-1.11.1.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
